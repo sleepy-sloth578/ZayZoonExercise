@@ -1,0 +1,20 @@
+companies:
+  acme:
+    columns:
+      external_ref:
+        column_name: "EmployeeNumber"
+      earnings_date:
+        column_name: "CheckDate"
+        format: "MM/DD/YY"
+      earning_ammount:
+        column_name: "Amount"
+  betaco:
+    columns:
+      external_ref:
+        column_name: "employee"
+      earnings_date:
+        column_name: "earningDate"
+        format: "YY-MM-DD"
+      earning_amount:
+        column_name: "netAmount"
+
